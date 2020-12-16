@@ -31,7 +31,7 @@ public class OperacionesController {
 		operacionesService  = new OperacionesService();
 	}
 	
-	@ApiOperation(value="Obtener un producto por su ID", notes="Provee un mecanismo para realizar una suma.")
+	@ApiOperation(value="Realizar la suma de dos números", notes="Provee un mecanismo para realizar una suma.")
 	@ApiResponses(value= {
 			@ApiResponse(code=200, message="OK", response=Double.class),
 			@ApiResponse(code=404, message="Not Found", response=ApiError.class),
@@ -44,7 +44,7 @@ public class OperacionesController {
 				
 	}
 	
-	@ApiOperation(value="Obtener un producto por su ID", notes="Provee un mecanismo para realizar una resta.")
+	@ApiOperation(value="Realizar la resta de dos números", notes="Provee un mecanismo para realizar una resta.")
 	@ApiResponses(value= {
 			@ApiResponse(code=200, message="OK", response=Double.class),
 			@ApiResponse(code=404, message="Not Found", response=ApiError.class),
@@ -58,7 +58,7 @@ public class OperacionesController {
 	}
 	
 	
-	@ApiOperation(value="Obtener un producto por su ID", notes="Provee un mecanismo para realizar una multiplicacion.")
+	@ApiOperation(value="Realizar la multiplicación de dos números", notes="Provee un mecanismo para realizar una multiplicacion.")
 	@ApiResponses(value= {
 			@ApiResponse(code=200, message="OK", response=Double.class),
 			@ApiResponse(code=404, message="Not Found", response=ApiError.class),
@@ -72,7 +72,7 @@ public class OperacionesController {
 	}
 	
 	
-	@ApiOperation(value="Obtener un producto por su ID", notes="Provee un mecanismo para realizar una division.")
+	@ApiOperation(value="Realizar la división de dos números", notes="Provee un mecanismo para realizar una division.")
 	@ApiResponses(value= {
 			@ApiResponse(code=200, message="OK", response=Double.class),
 			@ApiResponse(code=404, message="Not Found", response=ApiError.class),
