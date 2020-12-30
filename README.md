@@ -69,12 +69,13 @@ Este generará el reporte y será enviado al sonar que se encuentre configurado 
 *http:200.52.91.234:9001*
 
 En sonar podemos realizar dos de las siguientes funciones
-1. **Análisis de código** *La aplicación puede ser examinada clase por clase para análisis mejoras bugs o problemas en código.*
-  *Código duplicado
-  *Calificación global de fiabilidad apartir del número de bugs y severidad.
-  *Calificación global de seguridad apartir del número de vulnerabilidades detectadas.
+1. **Análisis de código** 
+*La aplicación puede ser examinada clase por clase para análisis mejoras bugs o problemas en código.*
+  * Código duplicado
+  * Calificación global de fiabilidad apartir del número de bugs y severidad.
+  * Calificación global de seguridad apartir del número de vulnerabilidades detectadas.
 2. **Cobertura de pruebas** *
-  *Reporte general del porcetaje de código cubierto en pruebas unitarias, esto es útil a la hora de poner el un porcetaje mínimo de cobertura en el Quality Gate.
+  *Reporte general del porcetaje de código cubierto en pruebas unitarias, esto es útil a la hora de poner el un porcetaje mínimo de cobertura en el Quality Gate.*
 
 
 
