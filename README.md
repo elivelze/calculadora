@@ -1,5 +1,5 @@
-**Calculadora:**
-Proyecto que expone servicios para realizar las operaciones básicas Suma, Resta, Multiplicación y División de dos números.
+# Calculadora:
+###### Proyecto que expone servicios para realizar las operaciones básicas Suma, Resta, Multiplicación y División de dos números.
 
 **Requerimientos:**
 *Java 8*
