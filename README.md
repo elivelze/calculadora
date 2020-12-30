@@ -64,6 +64,7 @@ La aplicación también puede ser descargada desde el repo git hub elivelze/oper
 **Quality Gates**
 La aplicación tiene incorporado la capacidad de exportar el reporte de cobertura de pruebas unitarias a Sonar. Para realizar la ejecución del reporte en sonar ejecutar el siguiente comando.
 >mvn sonar:sonar
+
 Este generará el reporte y será enviado al sonar que se encuentre configurado en el pom, por default se puede consultar en:
 *http:200.52.91.234:9001*
 
